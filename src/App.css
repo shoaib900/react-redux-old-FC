@@ -1,0 +1,25 @@
+.card{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(126, 126, 126);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card > button{
+  height: 100px;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  border-radius: 10px;
+}
+.card > button:active{
+  background-color: tomato;
+}
+.card > p{
+  font-size: 40px;
+  font-weight: 800;
+}
